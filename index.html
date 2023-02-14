@@ -13,6 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="change.js"></script>
 
     <title>My Portfolio</title>
 </head>
@@ -21,17 +22,17 @@
 
     <main>
         <div class="container">
-                
+
             <div class="stars">
-                <img src="./assets/foguete.gif" alt="" class="clouds"> 
-                    <div class="responsi">
-                        <img src="./assets/spriter.png" width="70%" alt="atronauta">
-                        <h2>Olá mundo</h2>
-                    </div>
+                <img src="./assets/foguete.gif" alt="" class="clouds">
+                <div class="responsi">
+                    <img class="astronauta" src="./assets/spriter.png" width="70%" alt="atronauta">
+                    <h2>Hello World!</h2>
+                </div>
             </div>
-              
+
         </div>
-        
+
 
         <div class="content">
             <img src="./assets/caindo.png" width="500" alt="atronauta caindo">
@@ -44,11 +45,19 @@
                     também e ser Front End é uma grande alegria os códigos são minha maneira de expressar com um
                     trabalho arduo que é possivel com tecnologia e estudo descobrir outros mundos..</p>
             </div>
+            <div class="gif">
+                <img id="image1" src="./assets/astronauta.gif" alt="" onclick="changeImage()">
+                <h2>Clica no atronauta
+                    e vem me conhecer
+                </h2>
+
+            </div>
+
         </div>
-        <!-- <button class="glow-on-hover" type="button">VEM ME CONHECER</button>  -->
+
         <div class="flip-box ">
             <div class=" face front">
-               
+
                 <video autoplay muted loop>
                     <source src="./assets/video-first (1).mp4" type="video/mp4">
                 </video>
@@ -61,14 +70,14 @@
                 <video autoplay muted loop>
                     <source src="./assets/video-first (4).mp4" type="video/mp4">
                 </video>
-            
+
                 <video autoplay muted loop>
                     <source src="./assets/video-first (6).mp4" type="video/mp4">
                 </video>
                 <video autoplay muted loop>
                     <source src="./assets/video-first (7).mp4" type="video/mp4">
                 </video>
-              
+
 
             </div>
             <div class="face back">
