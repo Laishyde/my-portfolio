@@ -42,18 +42,5 @@
      
 
     }
-    .face{
-        width: 100%;
-    display:
-            grid;
-        grid-template-columns:
-            repeat(2, auto);
-        grid-template-rows:
-            70px 70px;
-       
-  
-    }
-    video{
-        width: 100% ;    
-    }
+    
 }

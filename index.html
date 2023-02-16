@@ -13,6 +13,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+        integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+    <script src="semantic/dist/semantic.min.js"></script>
     <script src="change.js"></script>
 
     <title>My Portfolio</title>
@@ -20,76 +24,85 @@
 
 <body>
 
-    <main>
+    <header>
         <div class="container">
-
-            <div class="stars">
-                <img src="./assets/foguete.gif" alt="" class="clouds">
-                <div class="responsi">
-                    <img class="astronauta" src="./assets/spriter.png" width="70%" alt="atronauta">
-                    <h2>Hello World!</h2>
-                </div>
+            <div class="content_one">
+                <img src="./assets/perfil.png" width="300px"  alt="foto Lais">
+                <h2>Desenvolvedor Front End</h2>
+                <ul>
+                    <a href="#about">
+                        <li>About</li>
+                    </a>
+                    <li>Skills</li>
+                    <li>Formação</li>
+                    <li>Experiência</li>
+                    <li>Trabalhos</li>
+                </ul>
             </div>
-
+         
+            
+           <div ><img class="astra" src="./assets/nasa-dab.gif" alt=""></div>
         </div>
-
-
+        
+</header>
+    <main>
         <div class="content">
-            <img src="./assets/caindo.png" width="500" alt="atronauta caindo">
-            <div class="information">
+            <img src="./assets/caindo.png" width="300" height="300" alt="atronauta caindo">
+            <div id="about" class="information ">
                 <h2>Quem sou eu </h2>
-                <p>Olá eu me chamo Laís Cristina este é o meu portfólio, eu sou uma garota apaixonada por tecnologia e
-                    livros eu gosto muito de games, jogar e contruir também estou atualmente no 2 semestre da faculdade
-                    e quero sar uma grande Desenvolvedora de software e não vou medir esforços para conseguir vou me
-                    mantém estudando sempre e sei que vou conseguir meu objetivo, como podem ver eu gosto de design
-                    também e ser Front End é uma grande alegria os códigos são minha maneira de expressar com um
-                    trabalho arduo que é possivel com tecnologia e estudo descobrir outros mundos..</p>
+                <p>Olá, meu nome é Laís Cristina e este é meu portfólio. Sou uma jovem apaixonada por tecnologia e
+                    livros, além de gostar
+                    muito de games e construir coisas. Atualmente, estou no segundo semestre da faculdade e meu objetivo
+                    é me tornar uma
+                    grande desenvolvedora de software. Para alcançar essa meta, estou determinada a estudar
+                    constantemente e sei que vou
+                    chegar lá. Além disso, tenho um grande interesse em design e ser Front-end é uma grande realização
+                    para mim. Através do
+                    código, posso expressar meu trabalho árduo e mostrar que é possível descobrir novos mundos através
+                    da tecnologia e
+                    estudo...</p>
             </div>
             <div class="gif">
                 <img id="image1" src="./assets/astronauta.gif" alt="" onclick="changeImage()">
-                <h2>Clica no atronauta
+                <h2>Clica no astronauta
                     e vem me conhecer
                 </h2>
 
             </div>
-
+        </div>
+        <div class="prime">
+        <div class="test">      
+        <div class="skills">
+            
+                <div class="habil ">
+                    <div class="time"></div>
+                </div>
+              
+                <div class="habil ">
+                    <div class="time  dois"></div>
+                </div>
+                <div class="habil ">
+                    <div class="time tres"></div>
+                </div>
+                <div class="habil ">
+                    <div class="time quatro"></div>
+                </div>
+                <div class="habil ">
+                    <div class="time cinco"></div>
+                </div>
+            </div>
+            <div class="hability">
+            <li>html5</li>
+            <li>css</li>
+            <li>photoshop</li>
+            <li>Javascript</li>
+            <li>ReactJs</li>
+            </div>
+        </div>
         </div>
 
-        <div class="flip-box ">
-            <div class=" face front">
-
-                <video autoplay muted loop>
-                    <source src="./assets/video-first (1).mp4" type="video/mp4">
-                </video>
-                <video autoplay muted loop>
-                    <source src="./assets/video-first (2).mp4" type="video/mp4">
-                </video>
-                <video autoplay muted loop>
-                    <source src="./assets/video-first (3).mp4" type="video/mp4">
-                </video>
-                <video autoplay muted loop>
-                    <source src="./assets/video-first (4).mp4" type="video/mp4">
-                </video>
-
-                <video autoplay muted loop>
-                    <source src="./assets/video-first (6).mp4" type="video/mp4">
-                </video>
-                <video autoplay muted loop>
-                    <source src="./assets/video-first (7).mp4" type="video/mp4">
-                </video>
-
-
-            </div>
-            <div class="face back">
-                <h2>O mundo é feito de sonhos</h2>
-            </div>
-
-        </div>
     </main>
-    <footer>
-        <H2>Lais Cristina</H2>
-        <p>2023</p>
-    </footer>
+
 </body>
 
 </html>
